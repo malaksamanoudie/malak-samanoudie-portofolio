@@ -1,75 +1,75 @@
-# Malak Zenbaa Portfolio — Resumterics-style recreation
+# Malak Samanoudie — Data Analyst Portfolio
 
-This is a vanilla HTML/CSS/JavaScript portfolio recreated from the supplied Resumterics reference screenshots and customized with Malak Zenbaa's CV content.
+A personal portfolio website showcasing my work, experience, skills, and projects in **Data Analytics, Business Intelligence, and Data Visualization**.
 
-## Run locally
+The portfolio highlights practical projects focused on transforming raw data into meaningful insights and presenting results through clear, interactive dashboards and visualizations.
 
-Because the site loads JSON files with `fetch`, use a local web server:
+## About Me
 
-```bash
-cd malak-resumterics-portfolio
-python3 -m http.server 8080
-```
+I am a Data Analyst with a background in Business Informatics and experience working with data to support business decision-making.
 
-Then open `http://localhost:8080`.
+My work focuses on:
 
-## Content files
+* Data Cleaning & Preparation
+* Exploratory Data Analysis
+* SQL Data Analysis
+* Power BI Dashboards
+* Data Modeling
+* DAX & KPI Development
+* Python Data Analysis
+* Data Visualization
+* Machine Learning
+* Business Analysis
 
-- `data/site.json` — profile, experience, education, skills, certificates, awards, contact
-- `data/projects.json` — all data analytics projects
+## Featured Projects
 
-Each project supports:
+The portfolio includes analytics projects covering areas such as:
 
-```json
-{
-  "id": "project-slug",
-  "title": "Project title",
-  "year": "2026",
-  "category": "Power BI · Data Analytics",
-  "description": "Short description",
-  "tools": ["Power BI", "SQL"],
-  "cover": "assets/projects/cover.png",
-  "gallery": ["assets/projects/detail-1.png", "assets/projects/detail-2.png"],
-  "highlights": ["Finding one", "Finding two"]
-}
-```
+### E-commerce Analytics
 
-Each certificate supports an optional image:
+Analysis of customer behavior, sales performance, products, and business KPIs using Python and data visualization techniques.
 
-```json
-{
-  "title": "Certificate title",
-  "issuer": "Issuer name",
-  "date": "Sep 2026",
-  "description": "What the certificate covers.",
-  "image": "assets/certificates/certificate-name.jpg"
-}
-```
+### Manufacturing & Downtime Analytics
 
-Put certificate images in `assets/certificates/` and set the matching `image` value in `data/site.json`. Leave `image` empty to keep the generated certificate placeholder.
+Power BI dashboard designed to analyze manufacturing performance, production efficiency, downtime, and operational KPIs.
 
-## Add Malak's real photo
+More projects will continue to be added as I expand my work in data analytics and business intelligence.
 
-Place the photo at:
+## Technologies
 
-`assets/profile/malak.jpg`
+**Data & Analytics**
 
-Until that file exists, the layout shows an `MZ` fallback while preserving the exact profile-photo proportions.
+`Power BI` `SQL` `Python` `Excel` `DAX`
 
-## Replace placeholder project visuals
+**Python Libraries**
 
-Replace the SVG files under `assets/projects/` with real Power BI / Python dashboard screenshots, then update the paths in `data/projects.json`.
+`Pandas` `NumPy` `Matplotlib` `Scikit-learn`
 
-## Main design choices matched from the supplied reference
+**Web**
 
-- purple textured/radial background
-- large black rounded application shell
-- fixed left profile card
-- pill navigation
-- charcoal content cards
-- purple active-state and section accent
-- compact Poppins typography
-- dense desktop proportions
-- responsive stacked mobile card
-- project list with content left and image right
-- resume, certificates, projects, awards and contact screens
+`HTML` `CSS` `JavaScript`
+
+## Portfolio Sections
+
+The website includes:
+
+* About
+* Experience
+* Education
+* Skills
+* Projects
+* Certifications
+* Awards
+* Contact
+
+## Purpose
+
+This portfolio was created to document my growth as a Data Analyst and showcase practical projects that demonstrate how I approach data cleaning, analysis, visualization, and business problem-solving.
+
+---
+
+### Connect With Me
+
+Feel free to explore my projects and reach out through the contact section of my portfolio.
+
+© 2026 Malak Samanoudie
