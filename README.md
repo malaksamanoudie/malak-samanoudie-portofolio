@@ -1,4 +1,4 @@
-# Malak Samanoudie — Data Analyst Portfolio
+# Malak Elsamanoudie — Portfolio
 
 A personal portfolio website showcasing my work, experience, skills, and projects in **Data Analytics, Business Intelligence, and Data Visualization**.
 
