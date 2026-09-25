@@ -1,0 +1,54 @@
+{
+  "name": "Malak Zenbaa",
+  "title": "Business Analyst | Data Analytics",
+  "cvUrl": "https://drive.google.com/file/d/15RiXKCW_2bam5E14Z5l3kc-KBRYPEfM6/view",
+  "roles":  ["Data Analytics"],
+  "summary": "Business Informatics graduate specializing in Business Analytics and currently working as a Business Analyst. Experienced in requirements gathering, process analysis, business documentation, stakeholder coordination, and translating business needs into clear user stories and actionable solutions. Hands-on experience with Excel, Power BI, SQL, Python, data cleaning, analysis, reporting, and dashboard development.",
+  "contact": {
+    "email": "malaksamanoudie@gmail.com",
+    "phone": "+20 1122269928",
+    "location": "Cairo, Egypt",
+    "linkedin": "https://www.linkedin.com/in/malak-elsamanoudie-679209286/",
+    "github": ""
+  },
+  "stats": [
+    {"value":"3.7/4.0","label":"GPA"},
+    {"value":"2+","label":"Analytics Projects"},
+    {"value":"5","label":"Certificates"},
+    {"value":"2026","label":"Graduate"}
+  ],
+  "services": [
+    {"icon":"chart","title":"Data Analytics","description":"Cleaning, analyzing and interpreting data to surface business trends and actionable insights."},
+    {"icon":"dashboard","title":"Business Intelligence","description":"Power BI dashboards, KPI tracking, reporting and clear visual communication for decision-making."},
+    {"icon":"briefcase","title":"Business Analysis","description":"Requirements gathering, BRDs, user stories, process mapping, stakeholder communication and UAT support."},
+    {"icon":"code","title":"Python & SQL","description":"Python, Pandas, NumPy and SQL for data preparation, analysis, reporting and analytical workflows."},
+    {"icon":"brain","title":"Machine Learning","description":"Building predictive models and data-driven solutions using regression, classification and recommendation techniques."},
+    {"icon":"database","title":"Data Science","description":"Exploring, preparing and modeling data to uncover patterns, answer business questions and support smarter decisions."}
+  ],
+  "experience": [
+    {"role":"Business Analyst","company":"SelectEG","period":"Aug 2026 — Present","description":"Gather and analyze business requirements, prepare BRDs, user stories, process flows and acceptance criteria, coordinate with technical and business teams, and support testing and validation."},
+    {"role":"Sales Representative","company":"Red Bull","period":"Oct 2024","description":"Promoted products, communicated with customers, and developed communication, teamwork and problem-solving skills in a fast-paced environment."},
+    {"role":"Human Resources Intern","company":"Microsystems","period":"Jul 2024","description":"Created advertisements and conducted calls to support employee recruitment."},
+    {"role":"Intern","company":"Commercial International Bank","period":"Sep 2024","description":"Completed training in HR learning and development, financial literacy, data analysis and entrepreneurship."}
+  ],
+  "education": [
+    {"degree":"Bachelor of Business Informatics","school":"Egypt University of Informatics, Cairo, Egypt","period":"2022 — 2026","description":"Major: Business Analytics · GPA: 3.7/4.0"}
+  ],
+  "skills": [
+    {"label":"Business Analysis — Requirements, BRD, User Stories, Process Mapping, UAT","level":92},
+    {"label":"Power BI, Reporting & Dashboard Development","level":90},
+    {"label":"Python, Pandas, NumPy, Matplotlib","level":86},
+    {"label":"SQL & Data Analysis","level":84},
+    {"label":"Communication, Analytical Thinking & Problem Solving","level":93}
+  ],
+  "certificates": [
+    {"title":"IBM SkillsBuild Data Analytics","issuer":"IBM SkillsBuild and SkillUp Online","date":"Dec 2023","description":"Data Analytics and Python program.","image":""},
+    {"title":"Dean's List — Academic Excellence Award","issuer":"Egypt University of Informatics","date":"Fall 2025","description":"Awarded for outstanding academic achievement as a Senior Business Analytics student.","image":"assets/certificates/award.jpeg"},
+    {"title":"Nestlé E-Learning Sustainability","issuer":"Nestlé Connect","date":"Jan 2024","description":"Sustainability concepts, practices and environmental-impact strategies.","image":""},
+    {"title":"Data Literacy Essentials Badge","issuer":"SAS","date":"Sep 2024","description":"Fundamentals of data literacy and the role of data in decision-making.","image":""},
+    {"title":"Data Literacy in Practice Badge","issuer":"SAS","date":"Sep 2024","description":"Preparing, analyzing and communicating data through visualization.","image":""},
+    {"title":"Human Resource Life Cycle Workshop","issuer":"Orqarise Company","date":"Aug 2025","description":"HR systems, automation, compliance, policies and data-driven HR operations.","image":""}
+  ],
+  
+  "languages": ["Arabic — Native", "English — Professional working proficiency"]
+}

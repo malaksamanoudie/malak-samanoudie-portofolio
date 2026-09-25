@@ -1,0 +1,34 @@
+[
+  {
+    "id":"ecommerce-sales-analysis",
+    "title":"E-Commerce Sales Analysis",
+    "year":"2026",
+    "category":"Python · Data Analytics",
+    "description":"Cleaned and prepared transactional e-commerce data, analyzed revenue trends, top products, geographic performance and repeat-customer behavior, then used RFM analysis to segment customers and communicate findings.",
+    "tools":["Python","Pandas","Matplotlib","RFM Analysis"],
+    "cover":"assets/projects/manufacture/manufacture.jpeg",
+    "gallery":[],
+    "highlights":[
+      "Handled missing values, cancellations, duplicates and invalid records.",
+      "Analyzed revenue trends, product performance and geography.",
+      "Segmented customers with RFM analysis.",
+      "Created Matplotlib visualizations to communicate findings."
+    ]
+  },
+  {
+    "id":"ai-ecommerce-analytics",
+    "title":"AI-Powered E-Commerce Analytics System",
+    "year":"Graduation Project",
+    "category":"Machine Learning · Analytics",
+    "description":"Developed an AI-powered dynamic pricing and recommendation system using Python, data analysis and machine learning, supported by dashboards tracking products, orders, subscriptions and customer behavior.",
+    "tools":["Python","Machine Learning","Regression","Recommendation","Dashboards"],
+    "cover":"assets/projects/ecommerce/cover.jpeg",
+    "gallery":["assets/projects/ecommerce/image1.jpeg","assets/projects/ecommerce/image2.jpeg","assets/projects/ecommerce/image3.jpeg"],
+    "highlights":[
+      "Analyzed product, pricing, stock, order, subscription and customer data.",
+      "Built regression models for dynamic pricing decisions.",
+      "Built personalized recommendation models.",
+      "Designed KPI dashboards for product and customer performance."
+    ]
+  }
+]
