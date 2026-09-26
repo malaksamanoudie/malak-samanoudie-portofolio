@@ -1,20 +1,42 @@
 [
+{
+  "id": "ecommerce-sales-analysis",
+  "title": "E-Commerce Sales & Customer Analysis",
+  "year": "2026",
+  "category": "Python · Data Analytics",
+  "description": "Analyzed more than 500,000 e-commerce transactions using Python and Pandas. Cleaned missing, duplicated, cancelled and invalid records; explored monthly revenue, product and country performance; and applied RFM analysis to identify valuable customer segments.",
+  "tools": ["Python","Pandas", "NumPy", "Matplotlib", "Jupyter Notebook" ],
+  "cover": "assets/projects/ecommerce/cover.jpeg",
+  "gallery": [
+    "assets/projects/ecommerce/image1.jpeg",
+    "assets/projects/ecommerce/image2.jpeg",
+    "assets/projects/ecommerce/image3.jpeg"
+  ],
+  "highlights": [
+    "Cleaned and validated more than 500,000 transactional records.",
+    "Analyzed monthly revenue, order volume and average order value.",
+    "Identified the highest-performing products and countries.",
+    "Segmented 4,338 customers using recency, frequency and monetary value.",
+    "Built a four-chart Matplotlib dashboard to communicate key findings."
+  ]
+},
   {
-    "id":"ecommerce-sales-analysis",
-    "title":"E-Commerce Sales Analysis",
-    "year":"2026",
-    "category":"Python · Data Analytics",
-    "description":"Cleaned and prepared transactional e-commerce data, analyzed revenue trends, top products, geographic performance and repeat-customer behavior, then used RFM analysis to segment customers and communicate findings.",
-    "tools":["Python","Pandas","Matplotlib","RFM Analysis"],
-    "cover":"assets/projects/manufacture/manufacture.jpeg",
-    "gallery":[],
-    "highlights":[
-      "Handled missing values, cancellations, duplicates and invalid records.",
-      "Analyzed revenue trends, product performance and geography.",
-      "Segmented customers with RFM analysis.",
-      "Created Matplotlib visualizations to communicate findings."
-    ]
-  },
+  "id": "manufacturing-downtime-analysis",
+  "title": "Manufacturing Downtime Analysis",
+  "year": "2026",
+  "category": "Power BI · Data Analytics",
+  "description": "Cleaned and transformed manufacturing data, built a relational data model and developed an interactive Power BI dashboard to analyze downtime causes, product performance and production efficiency.",
+  "tools": ["Power BI", "Power Query", "DAX", "Data Modeling"],
+  "cover": "assets/projects/manufacture/manufacture.jpeg",
+  "gallery": [],
+  "highlights": [
+    "Cleaned and transformed production and downtime data using Power Query.",
+    "Built relationships between productivity, downtime, product and factor tables.",
+    "Created DAX measures for downtime, production time and batch performance.",
+    "Identified machine issues as the source of 42.2% of total downtime.",
+    "Designed an interactive dashboard with KPIs, slicers and performance charts."
+  ]
+},
   {
     "id":"ai-ecommerce-analytics",
     "title":"AI-Powered E-Commerce Analytics System",
@@ -22,8 +44,8 @@
     "category":"Machine Learning · Analytics",
     "description":"Developed an AI-powered dynamic pricing and recommendation system using Python, data analysis and machine learning, supported by dashboards tracking products, orders, subscriptions and customer behavior.",
     "tools":["Python","Machine Learning","Regression","Recommendation","Dashboards"],
-    "cover":"assets/projects/ecommerce/cover.jpeg",
-    "gallery":["assets/projects/ecommerce/image1.jpeg","assets/projects/ecommerce/image2.jpeg","assets/projects/ecommerce/image3.jpeg"],
+    "cover":"assets/projects/graduation/img1.png",
+    "gallery":["assets/projects/graduation/img3.png","assets/projects/graduation/img2.png"],
     "highlights":[
       "Analyzed product, pricing, stock, order, subscription and customer data.",
       "Built regression models for dynamic pricing decisions.",

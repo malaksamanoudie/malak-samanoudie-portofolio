@@ -9,6 +9,7 @@ const icons = {
   brain: `<svg viewBox="0 0 48 48" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M24 12a8 8 0 0 0-15 4 7 7 0 0 0 0 13 8 8 0 0 0 15 4V12Zm0 0a8 8 0 0 1 15 4 7 7 0 0 1 0 13 8 8 0 0 1-15 4M15 16c4 0 6 2 6 5m-8 10c4 0 6-2 6-5m14-10c-4 0-6 2-6 5m8 10c-4 0-6-2-6-5"/></svg>`,
   database: `<svg viewBox="0 0 48 48" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="24" cy="10" rx="16" ry="6"/><path d="M8 10v14c0 3.3 7.2 6 16 6s16-2.7 16-6V10M8 24v14c0 3.3 7.2 6 16 6s16-2.7 16-6V24"/></svg>`,
   book: `<svg viewBox="0 0 48 48" fill="none" stroke-width="3"><path d="M7 9h12c5 0 7 3 7 7v24c0-4-2-7-7-7H7V9Zm34 0H29c-2 0-3 .4-3 1"/><path d="M41 9v24H29c-1 0-2 .1-3 .5"/></svg>`,
+  globe: `<svg viewBox="0 0 48 48" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="18"/><path d="M6 24h36M24 6c5 5 8 11 8 18s-3 13-8 18c-5-5-8-11-8-18s3-13 8-18Z"/></svg>`,
   linkedin: `<svg class="icon-fill" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.5 8.5H3.5V21h3V8.5ZM5 3a1.75 1.75 0 1 0 0 3.5A1.75 1.75 0 0 0 5 3ZM21 14.1c0-3.77-2.01-5.52-4.69-5.52-2.16 0-3.13 1.19-3.67 2.03V8.87h-3V21h3v-6.01c0-1.58.3-3.11 2.26-3.11 1.93 0 1.96 1.81 1.96 3.21V21H21v-6.9Z"/></svg>`,
   github: `<svg class="icon-fill" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .7A11.3 11.3 0 0 0 8.42 22.72c.57.1.78-.24.78-.55v-2.13c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.7.08-.69.08-.69 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.73-1.53-2.54-.29-5.21-1.27-5.21-5.65 0-1.25.45-2.27 1.18-3.07-.12-.29-.51-1.46.11-3.03 0 0 .96-.31 3.15 1.17A10.9 10.9 0 0 1 12 6.06a10.9 10.9 0 0 1 2.87.39c2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.74.11 3.03.74.8 1.18 1.82 1.18 3.07 0 4.39-2.68 5.36-5.23 5.65.41.35.78 1.05.78 2.12v3.02c0 .31.2.66.79.55A11.3 11.3 0 0 0 12 .7Z"/></svg>`,
   whatsapp: `<svg class="icon-fill" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.84 9.84 0 0 0-8.45 14.88L2 22l5.25-1.55A9.94 9.94 0 1 0 12.04 2Zm0 17.98a8 8 0 0 1-4.08-1.12l-.29-.17-3.12.92.94-3.04-.19-.31a8 8 0 1 1 6.74 3.72Zm4.39-5.98c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.93-1.19a7.2 7.2 0 0 1-1.34-1.66c-.14-.24-.01-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.69 2.58 4.1 3.62.57.25 1.02.39 1.37.5.58.18 1.1.16 1.51.1.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z"/></svg>`
@@ -111,13 +112,27 @@ function aboutPage() {
       <h3 class="content-heading">Education & Languages</h3>
       <div class="services-grid">
         <article class="service-card"><div class="service-icon">${icons.book}</div><div><h3>${esc(site.education[0].degree)}</h3><p>${esc(site.education[0].school)}<br>${esc(site.education[0].description)}</p></div></article>
-        <article class="service-card"><div class="service-icon">${icons.briefcase}</div><div><h3>Languages</h3><p>${site.languages.map(esc).join("<br>")}</p></div></article>
+        <article class="service-card"><div class="service-icon">${icons.globe}</div><div><h3>Languages</h3><p>${site.languages.map(esc).join("<br>")}</p></div></article>
       </div>
     </section>`;
 }
 
 function timelineSection(title, items) {
   return `<section class="timeline-card"><h3 class="subhead"><span class="subhead-icon">${icons.book}</span>${esc(title)}</h3><div class="timeline-list">${items.map(item => `<article class="timeline-item"><div class="timeline-dot">›</div><div><h3>${esc(item.role || item.degree)}${item.company ? `, ${esc(item.company)}` : ''}</h3><div class="timeline-period">${esc(item.period)}</div><p>${esc(item.school || item.description)}</p>${item.school && item.description ? `<p>${esc(item.description)}</p>`:''}</div></article>`).join("")}</div></section>`;
+}
+
+function skillCard(skill, index) {
+  const [name, ...detailParts] = String(skill.label).split(" — ");
+  const detail = detailParts.join(" — ");
+  const number = String(index + 1).padStart(2, "0");
+
+  return `<article class="skill-item">
+    <span class="skill-number" aria-hidden="true">${number}</span>
+    <div class="skill-identity">
+      <h4>${esc(name)}</h4>
+      ${detail ? `<p>${esc(detail)}</p>` : ""}
+    </div>
+  </article>`;
 }
 
 function resumePage() {
@@ -128,7 +143,15 @@ function resumePage() {
     <div class="resume-section">
       ${timelineSection("Professional Experience", site.experience)}
       ${timelineSection("Education", site.education)}
-      <section class="skills-card"><h3 class="content-heading">Skills & Interests</h3>${site.skills.map(s => `<div class="skill-row"><div class="skill-label"><span>${esc(s.label)}</span></div><div class="skill-track"><div class="skill-fill" style="width:${Number(s.level)}%"></div></div></div>`).join("")}</section>
+      <section class="skills-card">
+        <header class="skills-header">
+          <div>
+            <span class="skills-eyebrow">Core capabilities</span>
+            <h3 class="content-heading">Skills & Tools</h3>
+          </div>
+        </header>
+        <div class="skills-grid">${site.skills.map(skillCard).join("")}</div>
+      </section>
     </div>`;
 }
 
