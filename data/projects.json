@@ -1,4 +1,37 @@
 [
+  {
+  "id": "ecommerce-delivery-analysis",
+  "title": "E-Commerce Delivery & Customer Experience",
+  "year": "2026",
+  "category": "Power BI · Data Analytics",
+  "description": "Developed an interactive Power BI dashboard to analyze e-commerce revenue, orders, delivery performance, customer reviews, product categories and geographic trends.",
+  "tools": ["Power BI", "Power Query", "DAX", "Data Modeling"],
+  "cover": "assets/projects/ecommercepbi/ecommercepbi.png",
+  "gallery": [],
+  "highlights": [
+    "Analyzed $14M in revenue across 99K orders.",
+    "Measured delivery time, late-delivery rate and customer satisfaction.",
+    "Identified top product categories and states by performance.",
+    "Built interactive KPIs, slicers and business-focused visualizations."
+  ]
+},
+    {
+  "id": "manufacturing-downtime-analysis",
+  "title": "Manufacturing Downtime Analysis",
+  "year": "2026",
+  "category": "Power BI · Data Analytics",
+  "description": "Cleaned and transformed manufacturing data, built a relational data model and developed an interactive Power BI dashboard to analyze downtime causes, product performance and production efficiency.",
+  "tools": ["Power BI", "Power Query", "DAX", "Data Modeling"],
+  "cover": "assets/projects/manufacture/manufacture.jpeg",
+  "gallery": [],
+  "highlights": [
+    "Cleaned and transformed production and downtime data using Power Query.",
+    "Built relationships between productivity, downtime, product and factor tables.",
+    "Created DAX measures for downtime, production time and batch performance.",
+    "Identified machine issues as the source of 42.2% of total downtime.",
+    "Designed an interactive dashboard with KPIs, slicers and performance charts."
+  ]
+},
 {
   "id": "ecommerce-sales-analysis",
   "title": "E-Commerce Sales & Customer Analysis",
@@ -20,23 +53,7 @@
     "Built a four-chart Matplotlib dashboard to communicate key findings."
   ]
 },
-  {
-  "id": "manufacturing-downtime-analysis",
-  "title": "Manufacturing Downtime Analysis",
-  "year": "2026",
-  "category": "Power BI · Data Analytics",
-  "description": "Cleaned and transformed manufacturing data, built a relational data model and developed an interactive Power BI dashboard to analyze downtime causes, product performance and production efficiency.",
-  "tools": ["Power BI", "Power Query", "DAX", "Data Modeling"],
-  "cover": "assets/projects/manufacture/manufacture.jpeg",
-  "gallery": [],
-  "highlights": [
-    "Cleaned and transformed production and downtime data using Power Query.",
-    "Built relationships between productivity, downtime, product and factor tables.",
-    "Created DAX measures for downtime, production time and batch performance.",
-    "Identified machine issues as the source of 42.2% of total downtime.",
-    "Designed an interactive dashboard with KPIs, slicers and performance charts."
-  ]
-},
+
   {
     "id":"ai-ecommerce-analytics",
     "title":"AI-Powered E-Commerce Analytics System",
