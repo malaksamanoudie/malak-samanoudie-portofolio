@@ -1,4 +1,24 @@
 [
+    {
+
+  "id": "global-electronics-analytics",
+  "title": "Global Electronics — Retail & Customer Analytics",
+  "year": "2026",
+  "category": "Power BI · Python · Data Analytics",
+  "description": "Developed a three-page interactive Power BI report to analyze customer behavior, sales performance, product contribution and store productivity. Integrated Python-based RFM segmentation to explore customer value and support targeted retention strategies.",
+  "tools": ["Power BI", "Power Query", "DAX", "Data Modeling", "Python", "Pandas"],
+  "cover": "assets/projects/electronics/1.png",
+  "gallery": ["assets/projects/electronics/2.png","assets/projects/electronics/3.png"],
+  "highlights": [
+    "Built connected dashboards for Customer Intelligence, Sales & Revenue, and Products & Stores.",
+    "Applied RFM segmentation using purchase recency, frequency and monetary value.",
+    "Analyzed revenue, gross profit, average order value, repeat purchase rate and YoY growth.",
+    "Explored revenue contribution by sales channel, product category, brand and country.",
+    "Compared top products and store performance using revenue per square meter.",
+    "Added page navigation, expandable filter panels, contextual tooltips and an interactive revenue decomposition tree."
+  ]
+
+},
   {
   "id": "ecommerce-delivery-analysis",
   "title": "E-Commerce Delivery & Customer Experience",
