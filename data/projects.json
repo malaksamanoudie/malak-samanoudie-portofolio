@@ -1,23 +1,27 @@
 [
-    {
-
+{
   "id": "global-electronics-analytics",
   "title": "Global Electronics — Retail & Customer Analytics",
   "year": "2026",
   "category": "Power BI · Python · Data Analytics",
-  "description": "Developed a three-page interactive Power BI report to analyze customer behavior, sales performance, product contribution and store productivity. Integrated Python-based RFM segmentation to explore customer value and support targeted retention strategies.",
-  "tools": ["Power BI", "Power Query", "DAX", "Data Modeling", "Python", "Pandas"],
+  "description": "Used Python and Pandas to clean and prepare retail data, handle missing values, correct data types and perform RFM customer segmentation. Integrated the segmentation results into a three-page Power BI report covering customer behavior, sales performance, and product and store productivity.",
+  "tools": ["Python", "Pandas", "Power BI", "Power Query", "DAX", "Data Modeling"],
   "cover": "assets/projects/electronics/1.png",
-  "gallery": ["assets/projects/electronics/2.png","assets/projects/electronics/3.png"],
+  "gallery": [
+    "assets/projects/electronics/2.png",
+    "assets/projects/electronics/3.png",
+    "assets/projects/electronics/4.png",
+    "assets/projects/electronics/5.png",
+     "assets/projects/electronics/6.png"
+  ],
   "highlights": [
-    "Built connected dashboards for Customer Intelligence, Sales & Revenue, and Products & Stores.",
-    "Applied RFM segmentation using purchase recency, frequency and monetary value.",
-    "Analyzed revenue, gross profit, average order value, repeat purchase rate and YoY growth.",
-    "Explored revenue contribution by sales channel, product category, brand and country.",
-    "Compared top products and store performance using revenue per square meter.",
-    "Added page navigation, expandable filter panels, contextual tooltips and an interactive revenue decomposition tree."
+    "Cleaned and transformed customer, sales, product and store data using Python and Pandas.",
+    "Calculated Recency, Frequency and Monetary value in Python to segment customers by purchasing behavior.",
+    "Integrated Python-generated RFM segments into Power BI and visualized the top five segments by revenue.",
+    "Built three interactive pages covering Customer Intelligence, Sales & Revenue, and Products & Stores.",
+    "Analyzed repeat purchasing, customer value, gross profit, YoY revenue growth and store revenue per square meter.",
+    "Added page navigation, expandable filters, contextual tooltips and an interactive revenue decomposition tree."
   ]
-
 },
   {
   "id": "ecommerce-delivery-analysis",
