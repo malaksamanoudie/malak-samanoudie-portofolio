@@ -1,4 +1,34 @@
 [
+  
+{
+  "id": "recruitment-analytics",
+  "title": "Recruitment Analytics — Hiring Performance & Source Intelligence",
+  "year": "2026",
+  "category": "Power BI · DAX · Data Analytics",
+  "description": "Cleaned and transformed recruitment data using Power Query, removing duplicates, handling missing values, and validating candidate records. Developed DAX measures to evaluate hiring performance, recruitment efficiency, and offer outcomes. Built a two-page interactive Power BI dashboard covering Hiring Performance and Source Intelligence, analyzing 5,200 applications across departments and recruitment channels.",
+  "tools": [
+    "Power BI",
+    "Power Query",
+    "DAX",
+    "Data Cleaning",
+    "Data Visualization"
+  ],
+  "cover": "assets/projects/recruitment/1.png",
+  "gallery": [
+    "assets/projects/recruitment/2.png",
+    "assets/projects/recruitment/3.png",
+    "assets/projects/recruitment/4.png"
+  ],
+  "highlights": [
+    "Cleaned and transformed recruitment data using Power Query, removing duplicate records and handling missing values.",
+    "Developed reusable DAX measures to track applications, successful hires, hiring rates, offer acceptance, and average time to hire.",
+    "Built two interactive dashboard pages covering Hiring Performance and Source Intelligence.",
+    "Analyzed 5,200 applications and 576 successful hires, identifying an overall hiring rate of 11.08%.",
+    "Identified referrals as the highest-performing recruitment source by hiring rate (13.52%) and Engineering as the department with the longest average hiring duration (47.44 days).",
+    "Implemented synchronized slicers, expandable sidebar filters, interactive charts, and bookmark-based page navigation."
+  ]
+}
+,
 {
   "id": "global-electronics-analytics",
   "title": "Global Electronics — Retail & Customer Analytics",
