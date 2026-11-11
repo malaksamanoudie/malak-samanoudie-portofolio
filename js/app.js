@@ -174,9 +174,42 @@ function certificatesPage() {
   return `${heading("Certificates")}<div class="certificates-list">${site.certificates.map(certificateCard).join("")}</div>`;
 }
 
+
 function projectsPage() {
-  return `${heading("Projects")}<div class="projects-list">${projects.map(p => `<article class="project-card" data-project="${esc(p.id)}" role="button" tabindex="0" aria-label="View details for ${esc(p.title)}"><div class="project-copy"><h3>${esc(p.title)}</h3><div class="project-year">${esc(p.year)}</div><p>${esc(p.description)}</p><div class="project-tools">${p.tools.map(t => `<span class="project-tool">${esc(t)}</span>`).join("")}</div></div><img class="project-thumb" src="${esc(p.cover)}" alt="${esc(p.title)} cover"></article>`).join("")}</div>`;
+  return `
+    ${heading("Projects")}
+
+    <div class="project-filters">
+      <button class="project-filter active" data-filter="all">All Projects</button>
+      <button class="project-filter" data-filter="analysis">Data Analysis</button>
+      <button class="project-filter" data-filter="ml">Machine Learning</button>
+    </div>
+
+    <div class="projects-list">
+      ${projects.map(p => `
+        <article
+          class="project-card"
+          data-project="${esc(p.id)}"
+          data-category="${p.category.includes("Machine Learning") ? "ml" : "analysis"}"
+          role="button"
+          tabindex="0"
+          aria-label="View details for ${esc(p.title)}"
+        >
+          <div class="project-copy">
+            <h3>${esc(p.title)}</h3>
+            <div class="project-year">${esc(p.year)}</div>
+            <p>${esc(p.description)}</p>
+            <div class="project-tools">
+              ${p.tools.map(t => `<span class="project-tool">${esc(t)}</span>`).join("")}
+            </div>
+          </div>
+          <img class="project-thumb" src="${esc(p.cover)}" alt="${esc(p.title)} cover">
+        </article>
+      `).join("")}
+    </div>
+  `;
 }
+
 
 function awardsPage() {
   return `${heading("Awards")}<div class="awards-list">${site.awards.map(a => `<article class="award-card"><div><h3>${esc(a.title)}</h3><div class="card-meta">Issued by ${esc(a.issuer)} · ${esc(a.date)}</div><p class="card-description">${esc(a.description)}</p></div><div class="certificate-visual"><div><strong>ACADEMIC EXCELLENCE</strong><span>${esc(a.date)}</span></div></div></article>`).join("")}</div>`;
@@ -257,6 +290,26 @@ function bindDynamicEvents() {
       }
     });
   });
+
+panel.querySelectorAll(".project-filter").forEach(button => {
+  button.addEventListener("click", () => {
+    const selected = button.dataset.filter;
+
+    panel.querySelectorAll(".project-filter").forEach(btn => {
+      const active = btn === button;
+      btn.classList.toggle("active", active);
+      btn.setAttribute("aria-pressed", String(active));
+    });
+
+    panel.querySelectorAll(".project-card").forEach(card => {
+      const show = selected === "all" ||
+                   card.dataset.category === selected;
+
+      card.style.display = show ? "" : "none";
+    });
+  });
+});
+
   const form = el("#contactForm");
   if (form) form.addEventListener("submit", sendContactEmails);
 }

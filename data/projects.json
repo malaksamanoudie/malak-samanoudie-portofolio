@@ -1,4 +1,84 @@
 [
+
+{
+  "id": "personalized-product-recommendation",
+  "title": "Personalized Product Recommendation System",
+  "year": "2026",
+  "category": "Machine Learning · Recommendation System",
+  "description": "Developed a personalized product recommendation system using CatBoost and XGBoost to predict customer-product interactions and rank products based on purchasing history, category preferences, and behavioral features. Evaluated classification and recommendation performance using ROC-AUC, Log Loss, and NDCG@10.",
+  "tools": [
+    "Python",
+    "Pandas",
+    "Scikit-learn",
+    "CatBoost",
+    "XGBoost",
+    "NDCG@10"
+  ],
+  "cover": "assets/projects/Recommendation/Figure_1.png",
+  "gallery": [],
+  "highlights": [
+    "Developed and compared CatBoost and XGBoost classification models for personalized product recommendations.",
+    "Achieved a ROC-AUC of 0.82 and Log Loss of 0.52 using CatBoost.",
+    "Achieved an NDCG@10 of 0.9262, measuring recommendation ranking quality.",
+    "Engineered customer behavior features including purchase frequency, category preferences, and recency.",
+    "Applied GroupShuffleSplit to separate training and testing users.",
+    "Ranked products using predicted interaction probabilities and saved the trained model using Joblib."
+  ]
+},
+
+{
+  "id": "vehicle-routing-optimization",
+  "title": "Vehicle Routing Optimization Using Metaheuristic Algorithms",
+  "year": "2026",
+  "category": "Machine Learning · Optimization",
+  "description": "Developed a Python-based optimization solution for the Vehicle Routing Problem with Time Windows (VRPTW). Implemented Genetic Algorithm, Particle Swarm Optimization, 2-Opt local search, and a hybrid GA + 2-Opt approach to optimize delivery routes while considering vehicle capacity, customer time windows, and travel distance.",
+  "tools": [
+    "Python",
+    "NumPy",
+    "SciPy",
+    "PySwarms",
+    "Genetic Algorithm",
+    "Particle Swarm Optimization",
+    "2-Opt"
+  ],
+  "cover": "assets/projects/VRPTW/Figure_1.png",
+  "gallery": ["assets/projects/VRPTW/Figure_2.png"],
+  "highlights": [
+    "Implemented Genetic Algorithm and Particle Swarm Optimization to explore delivery routing solutions.",
+    "Developed 2-Opt local search and route relocation techniques to improve routing solutions.",
+    "Combined Genetic Algorithm with 2-Opt in a hybrid optimization approach.",
+    "Implemented feasibility checks for vehicle capacity, delivery time windows, and customer coverage.",
+    "Developed route visualization using Matplotlib.",
+    "Designed the optimization process to consider vehicle utilization and total travel distance."
+  ]
+},
+
+{
+  "id": "dynamic-pricing-prediction",
+  "title": "Dynamic Pricing Prediction",
+  "year": "2026",
+  "category": "Machine Learning · Regression",
+  "description": "Developed a retail price prediction system using Python and machine learning. Compared Linear Regression, Random Forest, and XGBoost to predict product prices based on competitor pricing, inventory levels, and historical sales data.",
+  "tools": [
+    "Python",
+    "Scikit-learn",
+    "XGBoost",
+    "Random Forest",
+    "Linear Regression",
+    "Pandas"
+  ],
+  "cover": "assets/projects/dynamicpriceprediction/f1.png",
+  "gallery": [],
+  "highlights": [
+    "Built and compared three regression models.",
+    "Applied preprocessing pipelines and feature engineering.",
+    "Evaluated performance using MAE, RMSE, and R².",
+    "Analyzed feature importance to identify pricing factors.",
+    "Selected XGBoost for its nonlinear modeling capabilities and comparable performance.",
+    "Saved the trained prediction pipeline using Joblib."
+  ]
+},
+
   
 {
   "id": "recruitment-analytics",
@@ -112,7 +192,7 @@
     "id":"ai-ecommerce-analytics",
     "title":"AI-Powered E-Commerce Analytics System",
     "year":"Graduation Project",
-    "category":"Machine Learning · Analytics",
+    "category":"Python · Analytics",
     "description":"Developed an AI-powered dynamic pricing and recommendation system using Python, data analysis and machine learning, supported by dashboards tracking products, orders, subscriptions and customer behavior.",
     "tools":["Python","Machine Learning","Regression","Recommendation","Dashboards"],
     "cover":"assets/projects/graduation/img1.png",

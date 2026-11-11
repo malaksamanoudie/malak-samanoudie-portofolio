@@ -1,3 +1,4 @@
+
 :root {
   --bg: #0d0d0e;
   --shell: #111112;
@@ -491,6 +492,35 @@ a { color: inherit; }
   transition: transform .2s ease, background .2s ease, box-shadow .2s ease;
 }
 .download-btn:hover { transform: translateY(-2px); background: var(--accent-soft); box-shadow: 0 8px 24px rgba(113,107,208,.25); }
+
+/* Project Category Filters */
+.project-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.project-filter {
+  padding: 10px 18px;
+  border: 1px solid #38383f;
+  border-radius: 10px;
+  background: #252528;
+  color: #c2c2ca;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+.project-filter:hover { border-color: var(--accent); color: #fff; }
+.project-filter.active {
+  background: rgba(145,138,242,.17);
+  border-color: var(--accent);
+  color: #e6e3ff;
+}
+.project-filter:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+@media (max-width: 680px) {
+  .project-filters { gap: 8px; margin-bottom: 18px; }
+  .project-filter { padding: 9px 12px; font-size: 11px; }
+}
 
 .projects-list,
 .certificates-list,
