@@ -12,13 +12,13 @@
     "github": ""
   },
   "stats": [
-    {"value":"2+","label":"Analytics Projects"},
-    {"value":"4","label":"Certificates"},
+    {"value":"10+","label":"Analytics Projects"},
+    {"value":"6","label":"Certificates"},
     {"value":"2026","label":"Graduate"}
   ],
   "services": [
     {"icon":"chart","title":"Data Analytics","description":"Cleaning and exploring data with SQL, Python, Pandas, and Excel to uncover trends and answer business questions."},
-    {"icon":"dashboard","title":"Business Intelligence","description":"Building Power BI dashboards with data models, DAX measures, KPI tracking, reporting and clear visual communication for decision-making."},
+    {"icon":"dashboard","title":"Business Intelligence","description":"Building interactive dashboards with **Power BI and Tableau**, using data modeling, DAX, KPI tracking, and data storytelling to turn insights into actionable business decisions."},
     {"icon":"briefcase","title":"Business Analysis","description":"Requirements gathering, BRDs, user stories, process mapping, and stakeholder communication to turn business needs into clear solutions."},
     {"icon":"code","title":"Predictive Analytics","description":"Using Python and machine learning to build predictive models and recommendation systems that support decisions."}
   ],
@@ -34,12 +34,23 @@
  "skills": [
   {"label":"SQL — Queries, Joins & Data Analysis","level":90},
   {"label":"Power BI — Data Modeling, DAX & Dashboards","level":95},
-  {"label":"Python — Pandas, NumPy & Matplotlib","level":95},
-  {"label":"Excel — Data Cleaning, PivotTables & Reporting","level":95},
+  {"label":"Python — Pandas, NumPy & Matplotlib","level":98},
+  {"label":"Excel — Data Cleaning, PivotTables & Reporting","level":98},
   {"label":"Business Analysis — Requirements, BRDs & User Stories","level":90},
-  {"label":"Machine Learning — Predictive Models & Recommendations","level":90}
+  {"label":"Machine Learning — Predictive Models & Recommendations","level":95},
+  {"label":"Tableau — Data Visualization & Interactive Dashboards","level":90}
 ],
   "certificates": [
+
+{
+  "title": "Data Analytics Essentials",
+  "issuer": "Cisco Networking Academy",
+  "date": "Nov 2026",
+  "description": "Data analytics processes, data cleaning, statistical analysis, data visualization, and hands-on experience with Excel, SQL, and Tableau.",
+  "image": "assets/certificates/DataAnalyticsEssentialsUpdate20261123-20-29tj02_page-0001.jpg",
+    "badge": "assets/certificates/data-analytics-essentials.png"
+}
+,
     {"title":"IBM SkillsBuild Data Analytics","issuer":"IBM SkillsBuild and SkillUp Online","date":"Dec 2023","description":"Data Analytics and Python program.","image":"assets/certificates/IBM.jpg"},
     {"title":"Dean's List — Academic Excellence Award","issuer":"Egypt University of Informatics","date":"Fall 2025","description":"Awarded for outstanding academic achievement as a Senior Business Analytics student.","image":"assets/certificates/award.jpeg"},
     {"title":"Data Literacy Essentials Badge","issuer":"SAS","date":"Sep 2024","description":"Fundamentals of data literacy and the role of data in decision-making.","image":"assets/certificates/DataBadge.jpeg"},
