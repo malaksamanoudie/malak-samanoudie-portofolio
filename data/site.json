@@ -18,7 +18,7 @@
   ],
   "services": [
     {"icon":"chart","title":"Data Analytics","description":"Cleaning and exploring data with SQL, Python, Pandas, and Excel to uncover trends and answer business questions."},
-    {"icon":"dashboard","title":"Business Intelligence","description":"Building interactive dashboards with **Power BI and Tableau**, using data modeling, DAX, KPI tracking, and data storytelling to turn insights into actionable business decisions."},
+    {"icon":"dashboard","title":"Business Intelligence","description":"Building interactive dashboards with Power BI and Tableau, using data modeling, DAX, KPI tracking, and data storytelling to turn insights into actionable business decisions."},
     {"icon":"briefcase","title":"Business Analysis","description":"Requirements gathering, BRDs, user stories, process mapping, and stakeholder communication to turn business needs into clear solutions."},
     {"icon":"code","title":"Predictive Analytics","description":"Using Python and machine learning to build predictive models and recommendation systems that support decisions."}
   ],
